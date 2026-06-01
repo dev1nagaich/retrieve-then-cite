@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q1_concussion_definition",
+    "question": "How does Essential Sports Medicine define concussion in the context of sports brain injury?",
+    "gold_sources": [
+      {
+        "book": "ESSNTIAL SPORTS MEDICINE - GRANT COOPER.pdf",
+        "pdf_pages": [25]
+      }
+    ]
+  },
+  {
+    "id": "q2_concussion_symptoms",
+    "question": "What are common signs and symptoms of acute concussion?",
+    "gold_sources": [
+      {
+        "book": "ESSNTIAL SPORTS MEDICINE - GRANT COOPER.pdf",
+        "pdf_pages": [28]
+      }
+    ]
+  },
+  {
+    "id": "q3_metacarpal_fracture",
+    "question": "What mechanisms commonly cause metacarpal shaft or neck fractures?",
+    "gold_sources": [
+      {
+        "book": "ESSNTIAL SPORTS MEDICINE - GRANT COOPER.pdf",
+        "pdf_pages": [102]
+      }
+    ]
+  },
+  {
+    "id": "q4_patellar_tendinopathy_management",
+    "question": "What is the expected recovery time for a first presentation of persistent painful patellar tendinopathy?",
+    "gold_sources": [
+      {
+        "book": "Clinical Sports Medicine by Brukner and Khan.pdf",
+        "pdf_pages": [565]
+      }
+    ]
+  },
+  {
+    "id": "q5_achilles_heel_drop",
+    "question": "What exercises are included in Alfredson's painful heel-drop protocol for Achilles tendinopathy?",
+    "gold_sources": [
+      {
+        "book": "Clinical Sports Medicine by Brukner and Khan.pdf",
+        "pdf_pages": [638]
+      }
+    ]
+  }
+]

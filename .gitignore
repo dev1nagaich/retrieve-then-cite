@@ -1,0 +1,21 @@
+.env
+
+# Runtime artifacts
+artifacts/
+*.faiss
+*.pkl
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+books/
+test_llm.py
