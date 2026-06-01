@@ -85,6 +85,13 @@ hits@5: 5/5 (100%)
 
 The retriever uses FAISS dense retrieval plus an in-process BM25 lexical retriever, then fuses both ranked lists with RRF. A small post-fusion cleanup downranks index-like back-matter pages so answer citations prefer evidence passages.
 
+**Score Interpretation**: The retrieval scores represent L2 distances between normalized embeddings. **Lower scores are better** and indicate stronger semantic similarity:
+- **Score ≈ 0.03**: Excellent match (highly relevant passage)
+- **Score ≈ 0.1-0.2**: Good match (relevant)
+- **Score > 0.3**: Weak match (query may be irrelevant to sports medicine content)
+
+Mathematically, with unit-normalized embeddings, L2 distance = √(2 - 2·cos(θ)), where a score of 0 means identical vectors and scores near 2 mean opposite/unrelated vectors.
+
 ## 6. Launch the UI
 
 ```powershell

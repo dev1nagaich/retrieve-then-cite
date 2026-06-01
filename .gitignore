@@ -19,3 +19,7 @@ Thumbs.db
 .idea/
 books/
 test_llm.py
+test_rag.py
+problem_statement.txt
+test_all_queries.py
+test_scores.py
