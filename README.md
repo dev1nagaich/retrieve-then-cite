@@ -1,4 +1,4 @@
-#   RAG Assignment
+#   RAG prototype
 
 This is a small retrieve-then-cite RAG prototype over the two sports medicine PDFs in `books/`.
 
@@ -100,8 +100,8 @@ Install Tesseract OCR separately if you need scanned-page fallback:
 - Windows: install Tesseract and make sure `tesseract.exe` is on `PATH`.
 - If Tesseract is missing, the app warns on low-text pages and continues with normal text extraction.
 
-## Assignment assumptions
+## prototype assumptions
 
 - The official five labeled questions were not present in the workspace, so `data/eval_questions.json` contains five manually created gold-labeled questions from the provided books.
 - Gold sources use PDF page numbers.
-- The UI is intentionally basic because the assignment prioritizes method, citations, and measurement over frontend polish.
+- The UI is intentionally basic because the prototype prioritizes method, citations, and measurement over frontend polish.
