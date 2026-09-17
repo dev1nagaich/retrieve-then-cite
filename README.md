@@ -1,4 +1,4 @@
-# Remote Physio RAG Assignment
+#   RAG Assignment
 
 This is a small retrieve-then-cite RAG prototype over the two sports medicine PDFs in `books/`.
 
